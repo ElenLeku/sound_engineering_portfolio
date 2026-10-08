@@ -1,0 +1,152 @@
+header
+{
+  font-family: 'Monoton', cursive;
+  font-size: 50px;
+  text-align: center;
+  color: #ad4028;
+  padding: 10px;
+}
+
+footer
+{
+  font-family:'Major Mono Display', monospace;
+  font-size: 20px;
+  text-align: center;
+}
+
+h1
+{
+  font-family: 'Gruppo', sans-serif;
+  font-size: 35px;
+  color:#57718c;
+  padding: 20px;
+  margin-left: 100px;
+}
+
+
+footer1
+{
+  font-family:'Major Mono Display', monospace;
+  font-size: 17px;
+  font-weight: 200;
+}
+
+  .container{
+    display: flex;
+  }
+  
+  .text{
+    border-radius: 10px;
+    padding: 10px;
+    margin-right: 100px;
+    margin-left: 100px;
+  }
+
+  .sound-bubble{
+    background-color:#57718c;
+    border-radius: 20px;
+    padding: 10px;
+    margin-right: 100px;
+    height: 55px;
+  }
+
+  .video-bubble{
+    background-color: #57718c;
+    border-radius: 20px;
+    padding: 15px;
+    margin-right: 100px;
+    width: 700px;
+    height: 550px;
+  }
+
+.navbar{
+  background-image: linear-gradient(to bottom,#bd9d9b,transparent) ;
+  display: flex;
+}
+
+.tab{
+  font-family: 'Gruppo', sans-serif;
+  font-size: 25px;
+  color:#400703;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  padding: 20px 20px;
+  transition: background-color 0.3s ease;
+}
+
+.tab:hover{
+  background-color: #edd7d5;
+}
+
+
+<!-- Mixes background-image -->
+
+.background-image2{
+  position: relative;
+  width: 100%;
+  height: 800px;
+  overflow: hidden;
+}
+
+.background-image2::before{
+  content: "";
+  position: absolute;
+  background-image: url("pic2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 800px;
+  opacity: 0.23;
+}
+
+
+<!-- Masters background-image -->
+
+.background-image3{
+  position: relative;
+  width: 100%;
+  height: 800px;
+  overflow: hidden;
+}
+
+.background-image3::before{
+  content: "";
+  position: absolute;
+  background-image: url("pic3.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 800px;
+  opacity: 0.23;
+}
+
+<!-- Remix background-image -->
+
+.background-image4{
+  position: relative;
+  width: 100%;
+  height: 800px;
+  overflow: hidden;
+}
+
+.background-image4::before{
+  content: "";
+  position: absolute;
+  background-image: url("pic4.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 800px;
+  opacity: 0.23;
+}
+
+.content{
+  position: relative;
+  z-index: 1;
+}
+
+
